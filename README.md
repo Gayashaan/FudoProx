@@ -1,6 +1,6 @@
 ## FudoProx
 
-This project was developed for the Mobile Application Development lab test using Kotlin and Android Studio. It aims to demonstrate the usage of activities and intents, as well as the ability to illustrate UI implementations following the 60-30-10 rule to develop an app with good user experience and UI design. The focus is on frontend development, with some basic functionality.
+This project was developed for the Mobile Application Development lab test in Y2S2 using Kotlin and Android Studio. It aims to demonstrate the usage of activities and intents, as well as the ability to illustrate UI implementations following the 60-30-10 rule to develop an app with good user experience and UI design. The focus is on frontend development, with some basic functionality.
 
 ### Overview
 
