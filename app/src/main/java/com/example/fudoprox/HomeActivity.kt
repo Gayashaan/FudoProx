@@ -35,6 +35,7 @@ class HomeActivity : BaseActivity() {
         propertyList.add(Property(R.drawable.image5, "2 BedRooms, 3 Bathrooms", "Rs.4.1 million", "12000 sqF", "Ragama"))
         propertyList.add(Property(R.drawable.image6, "3 BedRooms, 3 Bathrooms", "Rs.3.1 million", "12000 sqF", "Panadura"))
         propertyList.add(Property(R.drawable.image2, "2 BedRooms, 3 Bathrooms", "Rs.9.1 million", "12000 sqF", "Colombo"))
+        propertyList.add(Property(R.drawable.image1, "3 BedRooms, 4 Bathrooms", "Rs.6.1 million", "12000 sqF", "Kadana"))
 
 
 

@@ -8,17 +8,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fudoprox.R
 import com.example.fudoprox.model.Property
+import com.example.fudoprox.viewholders.PropertyViewHolder
 
 class PropertyAdapter(private val propertyList:ArrayList<Property>)
-    : RecyclerView.Adapter<PropertyAdapter.PropertyViewHolder>(){
+    : RecyclerView.Adapter<PropertyViewHolder>(){
 
-    class PropertyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        val imageView: ImageView = itemView.findViewById(R.id.imageView)
-        val propHeader: TextView = itemView.findViewById(R.id.propHeader)
-        val propPrice: TextView = itemView.findViewById(R.id.propPrice)
-        val propArea: TextView = itemView.findViewById(R.id.propArea)
-        val propLoc: TextView = itemView.findViewById(R.id.propLocation)
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PropertyViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_list, parent, false)
